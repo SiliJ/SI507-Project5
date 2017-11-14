@@ -1,1 +1,9 @@
 Put your Project 5 brief explanation, as directed, here.
+get two themed events from Eventbrite.
+I am accessing the Eventbrite search API and gathering:
+    - All coming events for each of 2 themes(TEDx and Thanksgiving) that I'm going to search for
+    - For each event, I'll be accessing the event name, event description, event time, event_organizer, event location, event format and event logo
+    - I'll write 2 CSV files, one for each theme's search
+    - Data in each CSV file: 7 columns --event name, event url, event timezone, Event_Start_time, Event_organizer_id,Event venue id and Event_Format_id
+    - URL for the API: <https://www.eventbriteapi.com/v3/events/search/?token=<token>>
+    - If necessary, URL describing the authentication process for the API: <https://www.eventbrite.com/developer/v3/quickstart/>
